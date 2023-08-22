@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+body {
+  background-color: #1d1d20;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-custom {
+  color: rgba(255,255,255,.5);
+  transition: 0.9s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn-custom:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.link {
+  color: #0dcaf0;
+  transition: 0.9s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.link:hover {
+  color: #2f6ecc;
+}
+
+@media only screen and (min-width: 1000px) {
+  .vertically-centered {
+    transform: translateY(100%);
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 1000px) {
+  .vertically-centered {
+    transform: translateY(10%);
   }
+}
+
+
+.purple {
+  color: #8c68cd;
+}
+
+.border-desc {
+  border-color: #8c68cd;
+  border-style: solid;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
+  border-radius: 5px;
+}
+
+.border-projects {
+  border-color: #8c68cd;
+  border-style: solid;
+  border-top: 1;
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 1;
+  border-radius: 5px;
+}
+
+@font-face {
+  font-family: CenturyGothic;
+  src: url(./Components/Fonts/CenturyGothic.ttf);
+}
+
+h1, h2, h3, h4, h5, p, a {
+  font-family: CenturyGothic;
+}
+
+.transparent {
+  background-color: transparent!important;
+}
+
+footer {
+  position: relative;
+  padding-bottom: 5px;
+  bottom: 0;
 }
