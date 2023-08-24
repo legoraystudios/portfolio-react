@@ -11,6 +11,15 @@ body {
   color: white;
 }
 
+.project-link {
+  color: rgb(255, 193, 7) !important;
+  transition: 0.9s !important;
+}
+
+.project-link:hover {
+  color: #997a1f !important;
+}
+
 .link {
   color: #0dcaf0;
   transition: 0.9s;

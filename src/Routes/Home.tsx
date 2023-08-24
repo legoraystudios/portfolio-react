@@ -75,7 +75,7 @@ const Home = () => {
                                             return(
                                             <tbody>
                                                 <th scope="row" className="transparent text-white" key={record.id}>{record.id}</th>
-                                                <td className="transparent text-warning">{record.name}</td>
+                                                <td className="transparent"><a className="transparent project-link text-decoration-none" href={`https://github.com/legoraystudios/${record.name}`} target="_blank" rel="noreferrer">{record.name}</a></td>
                                                 <td className="transparent text-white">{record.stargazers_count}</td>
                                                 <td className="transparent text-white">{record.language}</td>
                                             </tbody>
