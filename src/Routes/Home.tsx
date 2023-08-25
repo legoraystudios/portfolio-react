@@ -26,7 +26,7 @@ const Home = () => {
         })
   
           .then(repoResponse => {
-            if (repoResponse.status == 200) {
+            if (repoResponse.status === 200) {
               return repoResponse.json()
             } else {
 
