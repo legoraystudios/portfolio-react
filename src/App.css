@@ -1,21 +1,28 @@
+:root {
+  --background-color: #1d1d20;
+  --btn-primary-color: rgba(255,255,255,.5);
+  --btn-primary-border-color: rgba(255,255,255,.5);
+  --btn-primary-hover-color: white;
+}
+
 body {
-  background-color: #1d1d20;
+  background-color: var(--background-color);
 }
 
 .btn-custom {
-  color: rgba(255,255,255,.5);
+  color: var(--btn-primary-color);
   transition: 0.9s;
 }
 
 .btn-custom:hover {
-  color: white;
+  color: var(--btn-primary-hover-color);
 }
 
 .btn-bd-primary {
-  --bs-btn-color: rgba(255,255,255,.5);
+  --bs-btn-color: var(--btn-primary-color);
   --bs-btn-bg: var(--bd-violet-bg);
-  --bs-btn-border-color: var(--bd-violet-bg);
-  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-border-color: var(--btn-primary-border-color);
+  --bs-btn-hover-color: var(--btn-primary-hover-color);
   --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
   --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
   --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
