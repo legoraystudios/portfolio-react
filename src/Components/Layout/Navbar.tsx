@@ -13,6 +13,7 @@ const Navbar = () => {
                             <div className="d-flex">
                                 <a className="btn-custom px-2" href="mailto:hola@legoray.com"><i className="bi bi-envelope"></i></a>
                                 <a className="btn-custom px-2" href="http://github.com/legoraystudios" rel="noreferrer" target="_blank"><i className="bi bi-github"></i></a>
+                                <button type="button" className="ms-2 btn btn-bd-primary">Download CV/Resume</button>
                             </div>
                     </div>
                 </nav>
