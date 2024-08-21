@@ -24,74 +24,75 @@ const DevIcons = () => {
     },
     {
         id: 3,
-        class: "devicon-java-plain",
-        website: "https://java.com"
-    },
-    {
-        id: 4,
-        class: "devicon-csharp-line",
-        website: "https://dotnet.microsoft.com/en-us/languages/csharp"
-    },
-    {
-        id: 5,
-        class: "devicon-php-plain",
-        website: "https://php.net"
-    },
-    {
-        id: 6,
-        class: "devicon-dot-net-plain",
-        website: "https://dotnet.microsoft.com/"
-    },
-    {
-        id: 7,
-        class: "devicon-dotnetcore-plain",
-        website: "https://dotnet.microsoft.com/"
-    },
-    {
-        id: 8,
-        class: "devicon-windows11-original",
-        website: "https://www.microsoft.com/en-us/windows?r=1"
-    },
-    {
-        id: 9,
-        class: "devicon-linux-plain",
-        website: ""
-    },
-    {
-        id: 10,
-        class: "devicon-mysql-plain-wordmark",
-        website: "https://www.mysql.com/"
-    },
-    {
-        id: 11,
-        class: "devicon-mariadb-original-wordmark",
-        website: "https://mariadb.org/"
-    },
-    {
-        id: 12,
-        class: "devicon-nginx-original",
-        website: "https://nginx.org/en/"
-    },
-    {
-        id: 13,
-        class: "devicon-react-original",
-        website: "https://react.dev/"
-    },
-    {
-        id: 14,
-        class: "devicon-express-original",
-        website: "https://expressjs.com/"
-    },
-    {
-        id: 15,
         class: "devicon-typescript-plain",
         website: "https://www.typescriptlang.org/"
     },
     {
-        id: 16,
+        id: 4,
+        class: "devicon-react-original",
+        website: "https://react.dev/"
+    },
+    {
+        id: 5,
+        class: "devicon-express-original",
+        website: "https://expressjs.com/"
+    },
+    {
+        id: 6,
+        class: "devicon-csharp-line",
+        website: "https://dotnet.microsoft.com/en-us/languages/csharp"
+    },
+    {
+        id: 7,
+        class: "devicon-dot-net-plain",
+        website: "https://dotnet.microsoft.com/"
+    },
+    {
+        id: 8,
+        class: "devicon-linux-plain",
+        website: ""
+    },
+    {
+        id: 9,
+        class: "devicon-mysql-plain-wordmark",
+        website: "https://www.mysql.com/"
+    },
+    {
+        id: 10,
+        class: "devicon-mariadb-original-wordmark",
+        website: "https://mariadb.org/"
+    },
+    {
+        id: 11,
+        class: "devicon-nginx-original",
+        website: "https://nginx.org/en/"
+    },
+
+    {
+        id: 12,
+        class: "devicon-php-plain",
+        website: "https://php.net"
+    },
+    {
+        id: 13,
+        class: "devicon-java-plain",
+        website: "https://java.com"
+    },
+    {
+        id: 14,
         class: "devicon-git-plain",
         website: "https://git-scm.com/"
-    }
+    },
+    {
+        id: 15,
+        class: "devicon-dotnetcore-plain",
+        website: "https://dotnet.microsoft.com/"
+    },
+    {
+        id: 16,
+        class: "devicon-windows11-original",
+        website: "https://www.microsoft.com/en-us/windows?r=1"
+    },
   ];
 
   return (

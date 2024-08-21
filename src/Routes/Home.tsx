@@ -2,6 +2,7 @@ import Navbar from "../Components/Layout/Navbar"
 import Footer from "../Components/Layout/Footer"
 import { useEffect, useState } from "react";
 import DevIcons from "../Components/Layout/DevIcons";
+import AstronautImage from "../Images/th.png";
 const moment = require("moment");
 
 interface ReposProperties {
@@ -56,14 +57,27 @@ const Home = () => {
             <div className="container-flex mx-auto mx-5">
                 <div className="container">
                     <div className="row align-items-center vh-100">
-                        <div className="col-lg">
+                        <div className="col-xl">
                             <h1 className="text-white mb-3">&#60;Hello World/&#62;</h1>
                             <p className="text-white-50 px-2 ms-3 border-desc">I'm Legoncio (Raymond), a {age} year old Computer Science Student,
                             living in Puerto Rico passionate about FullStack & Mobile Developer, dedicating my time doing some stuff and projects
                              with technologies like JavaScript, PHP, React, .NET Core and more!</p>
+
+                             <div className="mt-4">
+                                <DevIcons />
+                             </div>
+                             <div className="mt-5">
+                                <a type="button" className="ms-2 btn btn-bd-secondary" href="">
+                                    <i className="bi bi-envelope me-1"></i>
+                                Contact me!</a>
+                                <a type="button" className="ms-2 btn btn-bd-primary" href="https://legoray.com/assets/documents/resume.pdf" target="_blank">
+                                    <i className="bi bi-file-earmark-text me-1"></i>
+                                Download CV/Resume</a>
+                             </div>
                         </div>
-                        <div className="col-lg">
-                            <h3 className="text-white mb-4">My Projects</h3>
+                        <div className="col-md-5 text-center arrow-scroll-down">
+                            <img src={AstronautImage} height={350}></img>
+                            {/*<h3 className="text-white mb-4">My Projects</h3>
                                 <table className="table text-white-50 mb-5">
                                     <thead>
                                         <th scope="row">ID</th>
@@ -86,17 +100,22 @@ const Home = () => {
                                     }
                                 </table>
                                 <p className="text-white-50">Find more proyects on my <a className="link text-decoration-none" href="https://github.com/legoraystudios" target="_blank" rel="noreferrer"><i className="bi bi-github"></i> GitHub website</a></p>
+                        */}
                         </div>
                         <div className="arrow-scroll-down text-center">
-                            <i className="fs-1 bi bi-arrow-down-short purple"></i>
+                            <a className="text-decoration-none" href="#">
+                                <i className="fs-1 bi bi-arrow-down-short purple"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="container-fluid text-white text-center secondary-color py-5">
-                <h3 className="mb-4">Technology used on my projects</h3>
-                    <DevIcons />
+
+            <div className="container-fluid p-5 secondary-color">
+                <h4 className="text-white text-center">My Projects</h4>
+                <p className="text-center text-white-50">Here you can see all the janky stuff that I made</p>
             </div>
+
             <div className="my-5">
                 <Footer/>
             </div>

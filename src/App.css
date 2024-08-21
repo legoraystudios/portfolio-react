@@ -4,6 +4,10 @@
   --btn-primary-color: rgba(255,255,255,.5);
   --btn-primary-border-color: rgba(255,255,255,.5);
   --btn-primary-hover-color: white;
+  --btn-secondary-color: white;
+  --btn-secondary-bg: #8c68cd;
+  --btn-secondary-border-color: #8c68cd;
+  --btn-secondary-hover-color: #826bad;
   --link-color: #0dcaf0;
   --link-hover-color: #2f6ecc;
   --link-project-color: rgb(255, 193, 7);
@@ -30,10 +34,21 @@ body {
 
 .btn-bd-primary {
   --bs-btn-color: var(--btn-primary-color);
-  --bs-btn-bg: var(--bd-violet-bg);
   --bs-btn-border-color: var(--btn-primary-border-color);
   --bs-btn-hover-color: var(--btn-primary-hover-color);
   --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+  --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}
+
+.btn-bd-secondary {
+  --bs-btn-color: var(--btn-secondary-color);
+  --bs-btn-bg: var(--btn-secondary-bg);
+  --bs-btn-border-color: var(--btn-secondary-border-color);
+  --bs-btn-hover-color: var(--btn-secondary-hover-color);
   --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
   --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
   --bs-btn-active-color: var(--bs-btn-hover-color);
@@ -66,21 +81,21 @@ body {
 }
 
 .devIcons-fade-in {
-  font-size: 65px;
+  font-size: 45px;
   transition: font-size 0.3s ease-in-out;
 }
 
 .fdevIcons-fade-in.active {
-  font-size: 65px;
+  font-size: 45px;
 }
 
 .devIcons-fade-out {
-  font-size: 50px;
+  font-size: 25px;
   transition: font-size 0.3s ease-in-out;
 }
 
 .devIcons-fade-out.active {
-  font-size: 50px;
+  font-size: 25px;
 }
 
 .project-link:hover {
