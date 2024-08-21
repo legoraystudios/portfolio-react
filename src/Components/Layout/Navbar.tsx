@@ -21,7 +21,7 @@ const Navbar = () => {
                                 <li className="nav-item dropdown">
                                     <a className="nav-item text-decoration-none dropdown-toggle btn-custom px-2" href="#"
                                     data-bs-toggle="dropdown" aria-expanded="false">Developer Hub</a>
-                                        <ul className="dropdown-menu">
+                                        <ul className="dropdown-menu" data-bs-theme="dark">
                                           <li><a className="dropdown-item" href="#">Service Status</a></li>
                                           <li><a className="dropdown-item" href="#">Intranet</a></li>
                                           <li><hr className="dropdown-divider"></hr></li>
