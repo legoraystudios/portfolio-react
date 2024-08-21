@@ -9,10 +9,10 @@ const Navbar = () => {
             <header>
                 <nav className="navbar navbar-expand-md bg-transparent">
                     <div className="container-fluid mx-5 fs-4">
+                        <a className="navbar-brand" href="/"><img src={Logo} alt="" height="50" /></a>
                         <button className="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <span className="navbar-toggler-icon"></span>
+                            <i className="bi bi-list fs-1 text-white"></i>
                         </button>
-                        <a className="navbar-brand btn-custom fs-4" href="/"><img src={Logo} alt="" height="50" /></a>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <div className="navbar-nav">
                                 <a className="nav-item text-decoration-none btn-custom px-2 active" href="#">Home</a>
@@ -28,12 +28,12 @@ const Navbar = () => {
                                           <li><a className="dropdown-item" href="#"></a></li>
                                         </ul>
                                 </li>
+                                <div className="d-flex justify-content-center">
+                                    <a className="nav-item btn-custom px-2" href="mailto:hola@legoray.com"><i className="bi bi-envelope"></i></a>
+                                    <a className="nav-item btn-custom px-2" href="https://www.linkedin.com/in/raymond-negron-27360024a/" rel="noreferrer" target="_blank"><i className="bi bi-linkedin"></i></a>
+                                    <a className="nav-item btn-custom px-2" href="http://github.com/legoraystudios" rel="noreferrer" target="_blank"><i className="bi bi-github"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div className="d-flex">
-                            <a className="btn-custom px-2" href="mailto:hola@legoray.com"><i className="bi bi-envelope"></i></a>
-                            <a className="btn-custom px-2" href="https://www.linkedin.com/in/raymond-negron-27360024a/" rel="noreferrer" target="_blank"><i className="bi bi-linkedin"></i></a>
-                            <a className="btn-custom px-2" href="http://github.com/legoraystudios" rel="noreferrer" target="_blank"><i className="bi bi-github"></i></a>
                         </div>
                     </div>
                 </nav>
