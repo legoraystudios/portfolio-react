@@ -1,12 +1,22 @@
 :root {
-  --background-color: #1d1d20;
+  --background-color-primary: #1d1d20;
+  --background-color-secondary: rgb(40, 39, 39);
   --btn-primary-color: rgba(255,255,255,.5);
   --btn-primary-border-color: rgba(255,255,255,.5);
   --btn-primary-hover-color: white;
+  --link-color: #0dcaf0;
+  --link-hover-color: #2f6ecc;
+  --link-project-color: rgb(255, 193, 7);
+  --link-project-hover-color: #997a1f;
+  --highlight-color: #8c68cd;
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--background-color-primary);
+}
+
+.secondary-color {
+  background-color: var(--background-color-secondary);
 }
 
 .btn-custom {
@@ -32,21 +42,58 @@ body {
 }
 
 .project-link {
-  color: rgb(255, 193, 7) !important;
+  color: var(--link-project-color) !important;
   transition: 0.9s !important;
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.arrow-scroll-down {
+  animation-name: bounce;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.devIcons-fade-in {
+  font-size: 65px;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.fdevIcons-fade-in.active {
+  font-size: 65px;
+}
+
+.devIcons-fade-out {
+  font-size: 50px;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.devIcons-fade-out.active {
+  font-size: 50px;
+}
+
 .project-link:hover {
-  color: #997a1f !important;
+  color: var(--link-project-hover-color) !important;
 }
 
 .link {
-  color: #0dcaf0;
+  color: var(--link-color);
   transition: 0.9s;
 }
 
 .link:hover {
-  color: #2f6ecc;
+  color: var(--link-hover-color);
 }
 
 @media only screen and (min-width: 1000px) {
@@ -63,7 +110,7 @@ body {
 
 
 .purple {
-  color: #8c68cd;
+  color: var(--highlight-color);
 }
 
 .border-desc {

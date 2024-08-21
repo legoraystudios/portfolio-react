@@ -12,6 +12,7 @@ const Navbar = () => {
                         <a className="navbar-brand btn-custom fs-4" href="/"><img src={Logo} alt="" height="50" /></a>
                             <div className="d-flex">
                                 <a className="btn-custom px-2" href="mailto:hola@legoray.com"><i className="bi bi-envelope"></i></a>
+                                <a className="btn-custom px-2" href="https://www.linkedin.com/in/raymond-negron-27360024a/" rel="noreferrer" target="_blank"><i className="bi bi-linkedin"></i></a>
                                 <a className="btn-custom px-2" href="http://github.com/legoraystudios" rel="noreferrer" target="_blank"><i className="bi bi-github"></i></a>
                                 <button type="button" className="ms-2 btn btn-bd-primary">Download CV/Resume</button>
                             </div>
