@@ -14,10 +14,16 @@ const Navbar = () => {
                             <i className="bi bi-list fs-1 text-white"></i>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <div className="navbar-nav">
-                                <a className="nav-item text-decoration-none btn-custom px-2 active" href="#">Home</a>
-                                <a className="nav-item text-decoration-none btn-custom px-2" href="#">Projects</a>
-                                <a className="nav-item text-decoration-none btn-custom px-2" href="#">Contact</a>
+                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li className="nav-item">
+                                    <a className="text-decoration-none btn-custom px-2 active" href="#">Home</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-item text-decoration-none btn-custom px-2" href="#projects">Projects</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-item text-decoration-none btn-custom px-2" href="#">Contact</a>
+                                </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-item text-decoration-none dropdown-toggle btn-custom px-2" href="#"
                                     data-bs-toggle="dropdown" aria-expanded="false">Developer Hub</a>
@@ -28,12 +34,12 @@ const Navbar = () => {
                                           <li><a className="dropdown-item" href="#"></a></li>
                                         </ul>
                                 </li>
-                                <div className="d-flex justify-content-center">
+                            </ul>
+                                <div className="d-flex">
                                     <a className="nav-item btn-custom px-2" href="mailto:hola@legoray.com"><i className="bi bi-envelope"></i></a>
                                     <a className="nav-item btn-custom px-2" href="https://www.linkedin.com/in/raymond-negron-27360024a/" rel="noreferrer" target="_blank"><i className="bi bi-linkedin"></i></a>
                                     <a className="nav-item btn-custom px-2" href="http://github.com/legoraystudios" rel="noreferrer" target="_blank"><i className="bi bi-github"></i></a>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </nav>

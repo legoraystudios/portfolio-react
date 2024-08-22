@@ -8,6 +8,7 @@
   --btn-secondary-bg: #8c68cd;
   --btn-secondary-border-color: #8c68cd;
   --btn-secondary-hover-color: #826bad;
+  --bg-dark-blue: #134b79;
   --link-color: #0dcaf0;
   --link-hover-color: #2f6ecc;
   --link-project-color: rgb(255, 193, 7);
@@ -19,8 +20,12 @@ body {
   background-color: var(--background-color-primary);
 }
 
-.secondary-color {
-  background-color: var(--background-color-secondary);
+.bg-secondary {
+  background-color: var(--background-color-secondary) !important;
+}
+
+.bg-dark-blue {
+  background-color: var(--bg-dark-blue);
 }
 
 .btn-custom {

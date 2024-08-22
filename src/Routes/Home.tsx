@@ -103,7 +103,7 @@ const Home = () => {
                         */}
                         </div>
                         <div className="arrow-scroll-down text-center">
-                            <a className="text-decoration-none" href="#">
+                            <a className="text-decoration-none" href="#projects">
                                 <i className="fs-1 bi bi-arrow-down-short purple"></i>
                             </a>
                         </div>
@@ -111,9 +111,22 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="container-fluid p-5 secondary-color">
+            <div className="container-fluid p-3 bg-secondary" id="projects">
                 <h4 className="text-white text-center">My Projects</h4>
-                <p className="text-center text-white-50">Here you can see all the janky stuff that I made</p>
+                <p className="text-center text-white-50">Here are some of my personal projects and prototypes that I made during my journey:</p>
+            </div>
+            <div className="container-fluid p-3 bg-dark-blue">
+                <div className="row">
+                    <div className="col-sm-4"></div>
+                    <div className="col text-white mx-5">
+                        <h5>EZAvailability</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="container-fluid p-3 bg-secondary" id="contact">
+                <h4 className="text-white text-center">Contact me!</h4>
+                <p className="text-center text-white-50">For any inquiries, feel free to reach out to me at <a className="link text-decoration-none" href="mailto:hola@legoray.com">hola@legoray.com</a></p>
             </div>
 
             <div className="my-5">
