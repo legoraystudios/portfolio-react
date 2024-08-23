@@ -22,7 +22,7 @@ const Navbar = () => {
                                     <a className="nav-item text-decoration-none btn-custom px-2" href="#projects">Projects</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-item text-decoration-none btn-custom px-2" href="#">Contact</a>
+                                    <a className="nav-item text-decoration-none btn-custom px-2" href="#contact">Contact</a>
                                 </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-item text-decoration-none dropdown-toggle btn-custom px-2" href="#"

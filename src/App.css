@@ -28,6 +28,41 @@ body {
   background-color: var(--bg-dark-blue);
 }
 
+.bg-purple {
+  background-color: var(--highlight-color);
+}
+
+/* Gradient between both backgrounds projects */ 
+#projects {
+  height: 200px;
+  background-color: var(--background-color-secondary); /* For browsers that do not support gradients */
+  background-image: linear-gradient(var(--background-color-primary), var(--bg-dark-blue));
+}
+
+#grad2 {
+  height: 100px;
+  background-color: var(--bg-dark-blue); /* For browsers that do not support gradients */
+  background-image: linear-gradient(var(--bg-dark-blue), var(--highlight-color));
+}
+
+#grad3 {
+  height: 100px;
+  background-color: var(--bg-dark-blue); /* For browsers that do not support gradients */
+  background-image: linear-gradient(var(--highlight-color), var(--background-color-primary));
+}
+
+#grad4 {
+  height: 100px;
+  background-color: var(--background-color-primary); /* For browsers that do not support gradients */
+  background-image: linear-gradient(var(--background-color-primary), var(--background-color-secondary));
+}
+
+#grad5 {
+  height: 100px;
+  background-color: var(--background-color-primary); /* For browsers that do not support gradients */
+  background-image: linear-gradient(var(--background-color-secondary), var(--background-color-primary));
+}
+
 .btn-custom {
   color: var(--btn-primary-color);
   transition: 0.9s;

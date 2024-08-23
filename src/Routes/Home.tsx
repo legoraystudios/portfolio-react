@@ -3,6 +3,8 @@ import Footer from "../Components/Layout/Footer"
 import { useEffect, useState } from "react";
 import DevIcons from "../Components/Layout/DevIcons";
 import AstronautImage from "../Images/th.png";
+import EZAvailabilityImage from "../Images/project-images/ezavailability.png";
+import MANAMovieStudiosImage from "../Images/project-images/MANAMovieStudios.png";
 const moment = require("moment");
 
 interface ReposProperties {
@@ -111,23 +113,68 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="container-fluid p-3 bg-secondary" id="projects">
+            <div className="container-fluid p-3" id="projects">
                 <h4 className="text-white text-center">My Projects</h4>
                 <p className="text-center text-white-50">Here are some of my personal projects and prototypes that I made during my journey:</p>
             </div>
             <div className="container-fluid p-3 bg-dark-blue">
                 <div className="row">
-                    <div className="col-sm-4"></div>
-                    <div className="col text-white mx-5">
+                    <div className="col-sm-4">
+                        <img className="img-fluid" src={EZAvailabilityImage}></img>
+                    </div>
+                    <div className="col text-white mx-3">
                         <h5>EZAvailability</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>A web and mobile inventory management system built with Node.js, Express, React, MySQL, and .NET MAUI. It allows users to create, manage, and track products and categories through a web panel and a mobile app.</p>
+                        <div className="mt-5">
+                           <a type="button" className="ms-2 btn btn-bd-primary" href="https://github.com/legoraystudios/EZAvailability-frontend" target="_blank">
+                               <i className="bi bi-globe me-1"></i>
+                           EZAvailability Web</a>
+                           <a type="button" className="ms-2 btn btn-bd-primary" href="https://github.com/legoraystudios/EZAvailability-mobile" target="_blank">
+                               <i className="bi bi-phone me-1"></i>
+                           EZAvailability Mobile</a>
+                        </div>
+                        <div className="mt-5">
+                            <h5>
+                                <i className="bi bi-star-fill text-warning mx-1"></i>1
+                                <i className="bi bi-diagram-2 text-success mx-1"></i>0
+                            </h5>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div id="grad2"></div>
+            <div className="container-fluid p-3 bg-purple">
+                <div className="row">
+                <div className="col text-white mx-5">
+                        <h5>Movie Database</h5>
+                        <p>A web-based movie database built with NodeJS, React, Bootstrap, SpringBoot and MySQL. This project was created for a college class and it allows to create movies and make star rating with comments.</p>
+                        <div className="mt-5">
+                           <a type="button" className="ms-2 btn btn-bd-primary" href="https://github.com/legoraystudios/MANAMovieStudios-Web" target="_blank">
+                               <i className="bi bi-globe me-1"></i>
+                           MANAMovieStudios Web</a>
+                        </div>
+                        <div className="mt-5">
+                            <h5>
+                                <i className="bi bi-star-fill text-warning mx-1"></i>1
+                                <i className="bi bi-diagram-2 text-success mx-1"></i>0
+                            </h5>
+                        </div>
+                    </div>
+                    <div className="col-sm-4">
+                        <img className="img-fluid" src={MANAMovieStudiosImage}></img>
+                    </div>
+                </div>
+            </div>
+            <div id="grad3"></div>
+            <div className="container-fluid p-3">
+                <p className="text-center text-white-50">Find more proyects on my <a className="link text-decoration-none" href="https://github.com/legoraystudios" target="_blank" rel="noreferrer"><i className="bi bi-github"></i> GitHub website</a></p>
+            </div>
+            <div id="grad4"></div>
             <div className="container-fluid p-3 bg-secondary" id="contact">
                 <h4 className="text-white text-center">Contact me!</h4>
                 <p className="text-center text-white-50">For any inquiries, feel free to reach out to me at <a className="link text-decoration-none" href="mailto:hola@legoray.com">hola@legoray.com</a></p>
             </div>
+            <div id="grad5"></div>
 
             <div className="my-5">
                 <Footer/>
