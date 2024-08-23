@@ -50,7 +50,7 @@ const DevIcons = () => {
     {
         id: 8,
         class: "devicon-linux-plain",
-        website: ""
+        website: "https://www.linux.org/pages/download/"
     },
     {
         id: 9,
