@@ -79,30 +79,6 @@ const Home = () => {
                         </div>
                         <div className="col-md-5 text-center arrow-scroll-down">
                             <img src={AstronautImage} height={350}></img>
-                            {/*<h3 className="text-white mb-4">My Projects</h3>
-                                <table className="table text-white-50 mb-5">
-                                    <thead>
-                                        <th scope="row">ID</th>
-                                        <td className="">Project</td>
-                                        <td>Stars</td>
-                                        <td>Language</td>
-                                    </thead>
-
-                                    {
-                                        repo && repo.map( record => {
-                                            return(
-                                            <tbody>
-                                                <th scope="row" className="transparent text-white" key={record.id}>{record.id}</th>
-                                                <td className="transparent"><a className="transparent project-link text-decoration-none" href={`https://github.com/legoraystudios/${record.name}`} target="_blank" rel="noreferrer">{record.name}</a></td>
-                                                <td className="transparent text-white">{record.stargazers_count}</td>
-                                                <td className="transparent text-white">{record.language}</td>
-                                            </tbody>
-                                            )
-                                        })
-                                    }
-                                </table>
-                                <p className="text-white-50">Find more proyects on my <a className="link text-decoration-none" href="https://github.com/legoraystudios" target="_blank" rel="noreferrer"><i className="bi bi-github"></i> GitHub website</a></p>
-                        */}
                         </div>
                         <div className="arrow-scroll-down text-center">
                             <a className="text-decoration-none" href="#projects">
@@ -124,7 +100,7 @@ const Home = () => {
                     </div>
                     <div className="col text-white mx-3">
                         <h5>EZAvailability</h5>
-                        <p>A web and mobile inventory management system built with Node.js, Express, React, MySQL, and .NET MAUI. It allows users to create, manage, and track products and categories through a web panel and a mobile app.</p>
+                        <p>A web and mobile inventory management system prototype built with Node.js, Express, React, MySQL, and .NET MAUI. It allows users to create, manage, and track products and categories through a web panel and a mobile app.</p>
                         <div className="mt-5">
                            <a type="button" className="ms-2 btn btn-bd-primary" href="https://github.com/legoraystudios/EZAvailability-frontend" target="_blank">
                                <i className="bi bi-globe me-1"></i>
@@ -134,10 +110,10 @@ const Home = () => {
                            EZAvailability Mobile</a>
                         </div>
                         <div className="mt-5">
-                            <h5>
+                            {/*<h5>
                                 <i className="bi bi-star-fill text-warning mx-1"></i>1
                                 <i className="bi bi-diagram-2 text-success mx-1"></i>0
-                            </h5>
+                            </h5>*/}
                         </div>
                     </div>
                 </div>
@@ -154,10 +130,10 @@ const Home = () => {
                            MANAMovieStudios Web</a>
                         </div>
                         <div className="mt-5">
-                            <h5>
+                            {/*<h5>
                                 <i className="bi bi-star-fill text-warning mx-1"></i>1
                                 <i className="bi bi-diagram-2 text-success mx-1"></i>0
-                            </h5>
+                            </h5>*/}
                         </div>
                     </div>
                     <div className="col-sm-4">
