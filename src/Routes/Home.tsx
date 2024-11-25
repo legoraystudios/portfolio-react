@@ -109,12 +109,14 @@ const Home = () => {
                                <i className="bi bi-phone me-1"></i>
                            EZAvailability Mobile</a>
                         </div>
+                        {
                         <div className="mt-5">
                             {/*<h5>
                                 <i className="bi bi-star-fill text-warning mx-1"></i>1
                                 <i className="bi bi-diagram-2 text-success mx-1"></i>0
                             </h5>*/}
                         </div>
+                        }
                     </div>
                 </div>
             </div>
@@ -129,12 +131,14 @@ const Home = () => {
                                <i className="bi bi-globe me-1"></i>
                            MANAMovieStudios Web</a>
                         </div>
+                        {
                         <div className="mt-5">
                             {/*<h5>
                                 <i className="bi bi-star-fill text-warning mx-1"></i>1
                                 <i className="bi bi-diagram-2 text-success mx-1"></i>0
                             </h5>*/}
                         </div>
+                        }
                     </div>
                     <div className="col-sm-4">
                         <img className="img-fluid" src={MANAMovieStudiosImage}></img>

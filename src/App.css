@@ -8,6 +8,7 @@
   --btn-secondary-bg: #8c68cd;
   --btn-secondary-border-color: #8c68cd;
   --btn-secondary-hover-color: #826bad;
+  --bg-success: #005c2f;
   --bg-dark-blue: #134b79;
   --link-color: #0dcaf0;
   --link-hover-color: #2f6ecc;
@@ -24,6 +25,10 @@ body {
   background-color: var(--background-color-secondary) !important;
 }
 
+.bg-success {
+  background-color: var(--bg-success) !important;
+}
+
 .bg-dark-blue {
   background-color: var(--bg-dark-blue);
 }
@@ -37,6 +42,12 @@ body {
   height: 200px;
   background-color: var(--background-color-secondary); /* For browsers that do not support gradients */
   background-image: linear-gradient(var(--background-color-primary), var(--bg-dark-blue));
+}
+
+#grad1 {
+  height: 100px;
+  background-color: var(--bg-dark-blue); /* For browsers that do not support gradients */
+  background-image: linear-gradient(var(--background-color-secondary), var(--bg-dark-blue));
 }
 
 #grad2 {
@@ -61,6 +72,18 @@ body {
   height: 100px;
   background-color: var(--background-color-primary); /* For browsers that do not support gradients */
   background-image: linear-gradient(var(--background-color-secondary), var(--background-color-primary));
+}
+
+#grad-dark-green {
+  height: 100px;
+  background-color: var(--background-color-primary); /* For browsers that do not support gradients */
+  background-image: linear-gradient(var(--background-color-primary), var(--bg-success));
+}
+
+#grad-green-dark {
+  height: 100px;
+  background-color: var(--background-color-primary); /* For browsers that do not support gradients */
+  background-image: linear-gradient(var(--bg-success), var(--background-color-primary));
 }
 
 .btn-custom {
